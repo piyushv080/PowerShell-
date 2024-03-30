@@ -1,4 +1,5 @@
-﻿#My Script written by me
+﻿#Basic command of powershell
+<# Piyush Verma #>
 
 Get-Help Get-Process 
 
