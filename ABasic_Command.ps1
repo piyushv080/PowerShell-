@@ -27,6 +27,13 @@ Get-Date
 Get-Service
 (Get-Service).GetType()
 
+﻿[DateTime]$TodayDate="03 Feb 2022"
+$TodayDate.GetType()
+
+[DateTime]$TodayDate="03 Feb 2022"
+$TodayDate.GetType()
+$TodayDate.ToString
+
 ################# Piping ###############################
 
 Get-Service |select name,status
